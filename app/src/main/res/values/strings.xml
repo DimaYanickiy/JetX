@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">JetX</string>
+
+    <string name="buttonStart">Начать</string>
+    <string name="buttonSettings">Настройки</string>
+    <string name="buttonExit">Выход</string>
+    <string name="buttonStartWithStop">Запустить с остановкой</string>
+    <string name="buttonGame">Запустить</string>
+    <string name="buttonStop">Остановить</string>
+
+    <string name="settings">Выберите сложность:</string>
+    <string name="easy">Легко</string>
+    <string name="normal">Нормально</string>
+    <string name="hard">Сложно</string>
+
+    <string name="dollar">$</string>
+    <string name="balance">1000</string>
+    <string name="koef">x1.0</string>
+
+    <string name="hintTextKoef">Введите коефициент</string>
+    <string name="hintTextSum">Введите сумму</string>
+
+    <string name="textOfProgression">Тут будет видно результат</string>
+    <string name="enterSum">Вы не ввели суму на которую будете играть!</string>
+    <string name="enterKofOrSum">Вы не ввели сумму или коефициент!</string>
+    <string name="notEnoughMoney">Недостаточно средств</string>
+    <string name="youWin">Профит</string>
+    <string name="youLose">Не повезло(</string>
+
+    <string name="rocketDescription">Rocket</string>
+    <string name="graphicDescription">Graphic</string>
+</resources>

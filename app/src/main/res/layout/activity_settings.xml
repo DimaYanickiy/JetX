@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".SettingsActivity">
+
+    <RadioGroup
+        android:id="@+id/difficulty"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="240dp"
+        android:gravity="center"
+        android:soundEffectsEnabled="false"
+        tools:layout_editor_absoluteY="99dp">
+
+        <RadioButton
+            android:id="@+id/easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/easy"
+            android:textColor="@color/text"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="?android:attr/listChoiceIndicatorSingle"
+            android:checked="true"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/normal"
+            android:textColor="@color/text"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/hard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/hard"
+            android:textColor="@color/text"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textAppName2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/text"
+        android:textSize="90sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textAppName3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="140dp"
+        android:background="@color/design_default_color_on_secondary"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="@string/settings"
+        android:textColor="@color/text"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

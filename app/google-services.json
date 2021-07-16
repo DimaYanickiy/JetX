@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1064553834950",
+    "project_id": "arcader-fcec9",
+    "storage_bucket": "arcader-fcec9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064553834950:android:ca8413bde71aaa6154aac7",
+        "android_client_info": {
+          "package_name": "co.most.popular.arcader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064553834950-ks7rsn9lmh7508ck2ssdl231lrq5g1u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_DdPJDZRx4NtyXN9LEr3NJQNv4vVjzTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064553834950-ks7rsn9lmh7508ck2ssdl231lrq5g1u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
